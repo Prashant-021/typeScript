@@ -51,4 +51,10 @@ after that run ```tsc -w``` command.
 
 To not continue to create js file when there is error in ts file run ```tsc --onEmitOnError -w```
 
+## Difference between TypeScript and JavaScript
+
+|No|TypeScript|JavaScript|
+|--|----------|----------|
+|1.|statically typed language. i.e., types are checked at compile-time|Dynamically typed. i.e., types are checked at run-time
+
 
