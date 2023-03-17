@@ -58,3 +58,14 @@ To not continue to create js file when there is error in ts file run ```tsc --on
 |1.|statically typed language. i.e., types are checked at compile-time|Dynamically typed. i.e., types are checked at run-time
 
 
+## Type Assertions
+
+There are times when working with types where it is necessary to <strong>override the type of variable</strong>, such as when incorrect types are provided by the library. In this case type casting is used.
+
+Ways to type cast.
+
+1. A straighrforward way to type cast is using <strong>'as'</strong> keyword.
+
+2. Another way is using <strong>`<>`</strong> keyword.
+
+3. <strong>Force casting</strong>- first cast to unknown, then to target type
