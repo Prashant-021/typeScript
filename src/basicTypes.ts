@@ -25,3 +25,7 @@ const sum = (a:boolean, b:string) => {
 
 
 let re: RegExp = /\w+/g
+
+
+let nullVal: null = null
+let undefinedVal: undefined = undefined

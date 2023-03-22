@@ -12,3 +12,5 @@ console.log(c * b);
 let a1 = 12;
 let b1 = 6;
 console.log(a1 / b1);
+
+
