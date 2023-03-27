@@ -12,3 +12,25 @@ type stringArray = Array<string>
 
 const arr1: numberArray = [1,2,3]
 const arr2: stringArray = ["hello", "world"]
+
+function printVal<dataType>(value: dataType): void {
+    console.log(value);
+}
+
+printVal<number>(12)
+printVal<string>("Hello")
+printVal<boolean>(true)
+
+printVal([1,2,3]) // type is inferred to number[]
+
+
+function printTwoVal<x,y>(X: x, Y: y): void {
+    console.log(X,Y);
+    
+}
+
+printTwoVal(12,true)
+printTwoVal(12,[1,2,3])
+printTwoVal(false,[1,2,3])
+
+
