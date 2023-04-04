@@ -65,13 +65,13 @@ console.log("static keyword");
 //Static keyword indicates that variable does not refer to any instanciation of the class but 
 // it is directly instantiated to the class itself.
 class Peeps {
+    static getCount() {
+        return Peeps.count;
+    }
     constructor(name) {
         this.name = name;
         this.name = name;
         this.id = ++Peeps.count;
-    }
-    static getCount() {
-        return Peeps.count;
     }
 }
 Peeps.count = 0;

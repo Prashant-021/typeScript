@@ -169,3 +169,4 @@ console.log(myBands.data);
 
 // myBands.data = [12]          //Type 'number' is not assignable to type 'string'.
 // myBands.data = "hello world"    //Type 'string' is not assignable to type 'string[]'.
+
